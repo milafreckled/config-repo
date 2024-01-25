@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  name: zad2-service
+spec:
+  ports:
+    - port: 80
+      protocol: TCP
+      targetPort: zad2
+  selector:
+    app: zad2-app
+  type: NodePort
