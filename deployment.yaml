@@ -25,7 +25,7 @@ spec:
           name: zad2-cm
       containers:
       - name: zad2-web
-        image: 28ludmila/zad2:1.0.0
+        image: 28ludmila/zad2:sha-ca30e0e
         imagePullPolicy: IfNotPresent
         volumeMounts:
         - name: index-vol
